@@ -1,0 +1,258 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 2px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 2px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+}
+
+.hidden{
+	display: none !important;
+}	
+.tc{
+	text-align: center !important;
+}
+
+/*  */
+
+
+.top_header{
+	background-color: #4aaad2;
+}
+.header_topline{
+	background-color: #43484c;
+	padding: 15px 0;
+	color: #fff;
+}
+.header_topline a{
+	color: #fff;
+}
+.auth_buttons{
+	background: transparent;
+	border: none !important;
+	font-size: 1.3em;
+}
+.top_links{
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
+}
+.top_links a{
+	text-decoration: underline;
+}
+.top_links a:hover{
+	text-decoration: none;
+}
+.soc_buttons {
+	float: right;	
+}
+.soc_buttons a{
+	padding: 0 5px;
+	font-size: 1.3em;
+	display: inline-block;
+}
+.logo{
+	width: 100%;
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	font-family: 'NautilusPompiliusRegular';
+	font-size: 2.2em;
+	text-align: center;
+}
+.main_menu{
+	background-color: #3797bf;
+}
+.main_menu ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	z-index: 12;
+}
+.main_menu ul li{
+	display: inline-block;
+	color: #fff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+
+} 
+.main_menu .active{
+	background-color: #2787af;
+}
+.main_menu ul li a{
+	color: #fff;
+	padding: 16px;
+	display: block;
+	-webkit-transition:  all .25s;
+	-o-transition:  all .25s;
+	transition:  all .25s;
+}
+.main_menu ul li a:hover{
+	background-color: #2787af;
+}
+.top_contacts{
+	font-size: 1.5em;
+	line-height: 2.7em;
+	float: right;
+	padding: 0 15px 0 13px;
+	background-color: #2787af;
+	color: #fff !important;
+	position: relative;
+	z-index: 20px;
+}
+.btn_menu_button{
+	border: none;
+	background-color: transparent;
+	font-size: 1.3em;
+	color: #fff;
+	padding: 15px 15px 0;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+	font-size: 1.8em;
+}
+.slider-container{
+	position: relative;
+}
+.slider-container img{
+	max-width: 100%;
+	/* max-height: 50%;*/
+}
+.next_button, .prev_button{
+	color: #ccc;
+	font-size: 2em;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top: 40%;
+}
+.next_button{
+	right: 1%;
+}
+.prev_button{
+	left: 1%;
+}
+
+section.order{
+	background-color: #eee;
+	padding: 25px 0;
+}
+.order .sel_descr{
+	font-size: 1.375em;
+	text-align: left;
+	padding-top: 5px;
+	vertical-align: middle;
+	display: block;
+}
+.btn{
+	border: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #2bc6a4;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #4feac8;
+}
+.btn:active{
+	background-color: #14af8d;
+}
+.sell_order .btn{
+	float: right;
+}
+.pop_form{
+	padding: 10px 40px 20px;
+}
+.pop_form input[type=text]{
+	display: block;
+	width: 100%;
+	line-height: 24px;
+	margin: 10px auto;
+	padding-left: 10px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.pop_form .btn{
+	display: block;
+	margin: 10px auto;
+	padding: 10px 50px;
+	width: 100%;
+}
+.pop_form h3{
+	font-family: "RobotoCondensedBold"; 
+	margin: 10px auto 15px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+/* */
+.blog_item img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.blog_item h3{
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+.blog_item h3 a{
+	text-decoration: underline;
+}
+.blog_item p{
+	margin-top: 0;
+	
+}
+
+.right_aside{
+	
+	
+	margin-top: 20px;
+}
+.right_aside ul{
+	border-radius: 5px;
+	background-color: #eee;
+	padding: 15px 40px;
+}
+/* */
+
+
+
+/* foo */
+#foo{
+	background-color: #666;
+	margin-top: 100px;
+}
+#foo a{
+	color: #fff;
+}
+/* foo end */
